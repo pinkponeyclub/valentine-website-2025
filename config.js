@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Quer casar comigo? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -25,33 +25,33 @@ const CONFIG = {
             text: "Você gosta de mim?",                                    // First interaction
             yesBtn: "Sim",                                             // Text for "Yes" button
             noBtn: "Não",                                               // Text for "No" button
-            secretAnswer: "Eu nao gosto de vc, eu te amo! ❤️"           // Secret hover message
+            secretAnswer: "Eu não gosto de vc, eu te amo! ❤️"           // Secret hover message
         },
         second: {
             text: "Quanto vc me ama?",                          // For the love meter
             startText: "Esse tantão!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            nextBtn: "Próximo ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Vamos casar, ter 2 filhos e 5 cachorros? 🌹", // The big question!
+            yesBtn: "Simm!",                                             // Text for "Yes" button
+            noBtn: "Näo"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "TUDO ISSO?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "Ao infinito e além! 🚀💝",              // Shows when they go past 1000%
+        normal: "E muito mais! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "IUPIIIII! Eu sou a pessoa mais sortuda do mundo! 🎉💝💖💝💓",
+        message: "MUAC!",
+        emojis: "🎁💙​🤗💝💋💜​💕"  // These will bounce around
     },
 
     // Color scheme for the website
