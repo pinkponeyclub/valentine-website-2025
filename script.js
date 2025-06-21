@@ -5,11 +5,6 @@ const config = window.VALENTINE_CONFIG;
 function validateConfig() {
     const warnings = [];
 
-    // Check required fields
-    if (!config.valentineName) {
-        warnings.push("Valentine's name is not set! Using default.");
-        config.valentineName = "Xuxu";
-    }
 
     // Validate colors
     const isValidHex = (hex) => /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(hex);
